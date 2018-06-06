@@ -24,9 +24,9 @@ func main() {
 
 	for _, u := range users {
 		result := getUsers(u)
-		fmt.Println(`Usernam:  `, result.Login)
-		fmt.Println(`Name:     `, result.Name)
-		fmt.Println(`Location:     `, result.Location)
+		fmt.Println(`Username:   `, result.Login)
+		fmt.Println(`Name:       `, result.Name)
+		fmt.Println(`Location:   `, result.Location)
 		fmt.Println(`Email:      `, result.Email)
 	}
 }
